@@ -1,0 +1,20 @@
+
+<suite name="TestNg Roicians">
+	<test name="Regression Testing" allow-return-values="true"> //type of testing
+	
+		<classes>
+			<class name="TestNG.TestNGParametrization" /> //package name.class name
+			<class name="TestNG.TestngAnnotations"/>
+		</classes>
+	</test>
+	
+	<test name="Smoke" allow-return-values="true">
+		<classes>
+			<class name="TestNG.TestnGAssertions" />
+		</classes>
+	</test>
+
+
+</suite>
+
+
